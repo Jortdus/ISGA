@@ -197,13 +197,19 @@ main.category p {
     padding-top: 3%;
     padding-bottom: 3%;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .detail small {
-    padding-left: 5%;
     font-size: 14px;
     font-family: SourceSansPro-Reg;
+    margin: 0 auto;
+    width: 50%;
 
+}
+
+.detail article {
+    text-align: center;
 }
 
 footer {
