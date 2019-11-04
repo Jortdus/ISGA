@@ -67,7 +67,7 @@ section h2 {
 }
 
 .section-category {
-    width: 80%;
+    width: 90%;
     margin-top: 12%;
 }
 
@@ -87,6 +87,7 @@ main.category p {
     font-family: SourceSansPro-Reg;
     padding-top: 9%;
     padding-left: 2%;
+    width: 20%;
 }
 
 .icon-box {
