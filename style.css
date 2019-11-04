@@ -190,18 +190,20 @@ main.category p {
 
 .detail p {
     font-family: SourceSansPro-Reg;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     width: 90%;
     margin: 0 auto;
     padding-top: 3%;
     padding-bottom: 3%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .detail small {
     padding-left: 5%;
     font-size: 14px;
+    font-family: SourceSansPro-Reg;
+
 }
 
 footer {
