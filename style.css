@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 @font-face {
@@ -17,8 +18,6 @@ html {
 body {
     height: 667px;
     width: 375px;
-    overflow: hidden;
-    border: 1px solid black;
 }
 
 a {
@@ -36,7 +35,7 @@ header h1 {
     text-align: center;
     letter-spacing: 5px;
     height: 100%;
-    padding-top: 30px;
+    padding-top: 15px;
     font-size: 40px;
     color: white;
     font-weight: normal;
@@ -45,19 +44,21 @@ header h1 {
 
 main {
     background-color: black;
-    height: 90%;
+    height: 85%;
     width: 100%;
 }
 
 main.home, main.category {
     display: flex;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 section h2 {
     color: white;
     font-family: SourceSansPro-Reg;
     font-weight: normal;
+    font-size: 20px;
     letter-spacing: 2px;
     background-color: #333333;
     padding: 10px 15px 10px 15px;
@@ -67,7 +68,7 @@ section h2 {
 
 .section-category {
     width: 80%;
-    margin-top: 20%;
+    margin-top: 12%;
 }
 
 main.home p {
@@ -91,7 +92,7 @@ main.category p {
 .icon-box {
     width: 90px;
     height: 96px;
-    border-radius: 15%;
+    border-radius: 25%;
     background-color: #e21e21;
     text-align: center;
 
@@ -123,15 +124,15 @@ main.category p {
 
 
 #left-column {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 #mid-column {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 #right-column {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 #hamburger-icon {
@@ -149,6 +150,7 @@ main.category p {
 
 #back-icon {
     width: 15px;
+    height: 25px;
 }
 
 .container {
@@ -199,4 +201,17 @@ main.category p {
 .detail small {
     padding-left: 5%;
     font-size: 14px;
+}
+
+footer {
+    background-color: #B92222;
+    font-family: SourceSansPro-Reg;
+    height: 5%;
+    text-align: center;
+    color: white;
+}
+
+footer h3 {
+    padding-top: 1%;
+    letter-spacing: 2px;
 }
