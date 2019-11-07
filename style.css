@@ -57,6 +57,10 @@ main.home, main.category {
     overflow: hidden;
 }
 
+main.home {
+    height: 80%;
+}
+
 .category {
     height: 75%;
 }
@@ -265,4 +269,23 @@ footer h3 {
     height: 20px;
     padding-top: 9%;
     padding-left: 2%;
+}
+
+.coming-soon {
+    padding-top: 50%;
+    font-size: 40px;
+    color: white;
+    font-family: SourceSansPro-Reg;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.saved {
+    height: 5%;
+    font-family: SourceSansPro-Reg;
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    letter-spacing: 5px;
+    text-align: center;
 }
