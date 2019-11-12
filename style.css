@@ -78,10 +78,6 @@ main.home {
     height: 75%;
 }
 
-.filter-icon {
-    height: 25px;
-    padding: 0 4% 0 4%;
-}
 
 #filter-type {
     font-family: SourceSansPro-Reg;
@@ -342,4 +338,13 @@ blockquote {
     text-align: center;
     width: 80%;
     margin: 0 auto;
+}
+
+select {
+    color: white;
+    background-color: #1a1a1a;
+    font-family: SourceSansPro-Reg;
+    border: none;
+    padding: 5px;
+    font-size: 1em;
 }
