@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     user-select: none;
+
 }
 
 @font-face {
@@ -13,6 +14,7 @@ html {
     width: 100vw;
     height: 100vh;
     background-color: #333333;
+    font-family: SourceSansPro-Reg;
 }
 
 body {
@@ -189,6 +191,10 @@ main.category p {
     display: flex;
 }
 
+p span {
+    font-size: 1.5em;
+}
+
 .value-1 {
     color: red;
 }
@@ -329,4 +335,11 @@ iframe {
 
 .favorites .yellow-star {
     padding-left: 6%;
+}
+
+blockquote {
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
